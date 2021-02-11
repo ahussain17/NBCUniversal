@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.sample(failed)">
+    <classes>
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <methods>
+          <include name="submitBothPaymentMethodSelected"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="submitProperOrder"/>
+          <include name="submitCharacterQuantity"/>
+          <include name="submitReset"/>
+          <include name="submitNoQuantityOrder"/>
+          <include name="checkCostForMinimumValue"/>
+        </methods>
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </classes>
+  </test> <!-- com.sample(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
